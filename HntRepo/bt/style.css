@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Đảm bảo các đường biên không bị gãy đôi */
+    border: 2px solid black; /* Border cho toàn bộ bảng */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black; /* Border cho các ô trong bảng */
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
