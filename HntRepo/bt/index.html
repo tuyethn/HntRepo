@@ -5,8 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh Sách Sinh Viên</title>
-    <link rel="stylesheet" href="./style.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse; /* Đảm bảo các đường biên không bị gãy đôi */
+        border: 2px solid black; /* Border cho toàn bộ bảng */
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid black; /* Border cho các ô trong bảng */
+        text-align: center;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+</style>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
 </head>
+
 <body>
     <h1>Danh Sách Sinh Viên</h1>
     <table>
